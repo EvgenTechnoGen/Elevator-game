@@ -28,3 +28,7 @@ int main(int argc, const char * argv[]) {
 	     default:
                 cout << "Levels only from -1 to 2" << endl;
         }
+	cout << "If you want to play again press 0 or press 1 to exit this game" << endl;
+        cin >> exit;
+    }
+    
