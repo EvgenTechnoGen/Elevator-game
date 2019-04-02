@@ -8,3 +8,7 @@ int main(int argc, const char * argv[]) {
 
     int level;
     bool exit = false;
+
+	while (!exit) {
+        	cout << "Enter your level (from -1 to 2): ";
+       	 	cin >> level;
