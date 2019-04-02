@@ -25,3 +25,6 @@ int main(int argc, const char * argv[]) {
 	    case roof:
                 cout << "We on the 2 level in the roof" << endl;
                 break;
+	     default:
+                cout << "Levels only from -1 to 2" << endl;
+        }
