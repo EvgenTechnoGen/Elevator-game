@@ -16,3 +16,6 @@ int main(int argc, const char * argv[]) {
             case parking:
                 cout << "We on the -1 level in the parking" << endl;
                 break;
+	case hall:
+                cout << "We on the 0 level in the hall" << endl;
+                break;
