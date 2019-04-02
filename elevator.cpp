@@ -22,3 +22,6 @@ int main(int argc, const char * argv[]) {
 	    case many_shops:
                 cout << "We on the 1 level in the many_shops" << endl;
                 break;
+	    case roof:
+                cout << "We on the 2 level in the roof" << endl;
+                break;
