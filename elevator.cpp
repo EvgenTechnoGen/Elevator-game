@@ -12,3 +12,7 @@ int main(int argc, const char * argv[]) {
 	while (!exit) {
         	cout << "Enter your level (from -1 to 2): ";
        	 	cin >> level;
+	switch (level) {
+            case parking:
+                cout << "We on the -1 level in the parking" << endl;
+                break;
